@@ -10,3 +10,6 @@ While the app has a dropdown to switch between cameras, the UVCCameraControl cre
 
 ### Exposure Values
 At least for the Microsoft LifeCam Studio(TM) sensor, there are apparently only specific values supported - these were obtained from the [CamHolderApp source](https://github.com/HBehrens/CamHolderApp) which is the app I was using previously. That app is also built from UVCCameraControl but has lots of other functionality that I didn't want to take the time to update since I'm really only interested in fixing the exposure settings (because that's what doesn't work well by default).  Eventually it might be worthwhile to incorporate that functionality here, tracked by #3.
+
+### References link:
+http://www.phoboslab.org/log/2009/07/uvc-camera-control-for-mac-os-x
