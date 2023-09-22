@@ -1,12 +1,13 @@
 #  CameraControl for macOS
 
 ## Release notices:
-For macOS 10.15 or newer, you just open the CameraControl app in the Application folder or click the CameraControl app on Launchpad if the camera can't access it from FaceTime or any app and don't care about whether the CameraControl app is open or not. After that, go back to your app, and your camera will be working like you want.
+For <b>macOS 10.15</b> or <b>newer</b>, you just open the <b>CameraControl app</b> in the <b>Application</b> folder or click the <b>CameraControl app</b> on <b>Launchpad</b> if <b>FaceTime</b> or any app would like to use the camera, but it can't access the camera. In addition, don't care about whether the <b>CameraControl app</b> is open or not. After that, go back to your app, and your camera will be working like you want.
 <p align="center">
     <img src="Resources/UVCWebcam.png">
 p>
 
 ## Missing USB Kext
+You could add USB kext to <b>Clover</b> bootloader or <b>OpenCore</b> bootloader in case you are missing device id.
 [https://github.com/daliansky/OS-X-USB-Inject-All](https://github.com/daliansky/OS-X-USB-Inject-All) </br></br></br>
 
 ## Introducion and information from [@Charlie Powell](https://github.com/powellcj12) 
