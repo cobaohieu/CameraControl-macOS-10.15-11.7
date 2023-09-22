@@ -1,3 +1,5 @@
+#import "UVCCameraControl.h"
+
 @interface CameraControlAppDelegate : NSObject {
 	IBOutlet NSView *captureView;
 	IBOutlet NSButton * autoExposureCheckBox;

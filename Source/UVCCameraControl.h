@@ -34,11 +34,14 @@ typedef struct {
 	uvc_control_info_t autoWhiteBalance;
 } uvc_controls_t ;
 
-@interface UVCCameraControl : NSObject
+
+@interface UVCCameraControl : NSObject {
+    long dataBuffer;
+    IOUSBInterfaceInterface190 **interface;
+}
 
 - (id)initWithLocationID:(UInt32)locationID;
 - (id)initWithVendorID:(int)vendorID productID:(int)productID;
-- (IOUSBInterfaceInterface190 **)getControlInferaceWithDeviceInterface:(IOUSBDeviceInterface **)deviceInterface;
 
 - (BOOL)sendControlRequest:(IOUSBDevRequest)controlRequest;
 - (BOOL)setData:(long)value withLength:(int)length forSelector:(int)selector at:(int)unitID;
