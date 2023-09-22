@@ -4,7 +4,7 @@
 For <b>macOS 10.15</b> or <b>newer</b>, you just open the <b>CameraControl app</b> in the <b>Application</b> folder or click the <b>CameraControl app</b> on <b>Launchpad</b> if <b>FaceTime</b> or any app would like to use the camera, but it can't access the camera. In addition, don't care about whether the <b>CameraControl app</b> is open or not. After that, go back to your app, and your camera will be working like you want.
 <p align="center">
     <img src="Resources/UVCWebcam.png">
-p>
+</p>
 
 ## Missing USB Kext
 You could add USB kext to <b>Clover</b> bootloader or <b>OpenCore</b> bootloader in case you are missing device id.
